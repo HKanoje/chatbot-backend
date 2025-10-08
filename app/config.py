@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     # Google Gemini
     GEMINI_API_KEY: str
     GEMINI_MODEL: str = "gemini-2.5-flash"
-    GEMINI_EMBEDDING_MODEL: str = "gemini-embedding-001"
+    GEMINI_EMBEDDING_MODEL: str = "models/gemini-embedding-001"
     
     # Qdrant
     QDRANT_URL: str
